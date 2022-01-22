@@ -14,7 +14,7 @@ export default function Home() {
 
       <header className={styles.header}>
         <Link href="/" passHref className={styles.navbarLogo}>
-          <Image src='/logo.png' height="100%" width="100%" className={styles.logo} alt='chtnnh foundation logo'></Image>
+          <Image src='/logo.png' height="100%" width="100%" className={styles.logo} alt='chtnnh foundation logo' objectFit='cover' quality='100'></Image>
         </Link>
         <div className={styles.navbar}>
           <Link href="/docs/philosophy">Philosophy</Link>

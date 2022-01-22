@@ -15,7 +15,7 @@
 .header {
   padding: 2rem 0;
   display: grid;
-  grid-template-columns: 7.5% auto 20%;
+  grid-template-columns: 100px auto 20%;
 }
 
 .navbar {
@@ -155,9 +155,9 @@
   }
 
   .navbarLogo {
-    align-self: center;
     width: auto;
     height: auto;
+    align-self: center;
   }
 
   .navbar {

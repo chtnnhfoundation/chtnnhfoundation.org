@@ -24,7 +24,7 @@ export default function Home() {
           <Link href='/agi'>AGI</Link>
         </div>
         <div className={styles.joinUsNavbar}>
-          <Link href='https://github.com/chtnnhfoundation'>Join Us!</Link>
+          <Link href='https://cg018ltu1vj.typeform.com/to/CNCsLOyz'>Join Us!</Link>
         </div>
       </header>
 
@@ -34,9 +34,14 @@ export default function Home() {
           <Link className={styles.emphasis} href="docs/philosophy">lives&apos; work.</Link>
         </h1>
 
-        <p className={styles.description}>
-          Get started by reading our philosophy above, or deep diving into our areas of work below.
-        </p>
+        <div className={styles.descriptionParas}>
+          <p className={styles.description}>
+            The chtnnh foundation is a collective aimed at advancing tech research and building solutions, primarily in four areas - Blockchain, Quantum Computing, BCI &amp; AGI.
+          </p>
+          <p className={styles.description}>
+            Get started by reading our philosophy above, or deep diving into our areas of work below.
+          </p>
+        </div>
 
         <div className={styles.grid}>
           <a href="blockchain" className={styles.card}>
@@ -64,7 +69,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <Link href="https://github.com/chtnnhfoundation">Do you want to help build this future? Join us!</Link>
+        <Link href="https://cg018ltu1vj.typeform.com/to/CNCsLOyz">Do you want to help build this future? Join us!</Link>
       </footer>
     </div>
   )

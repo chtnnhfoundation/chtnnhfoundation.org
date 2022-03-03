@@ -24,7 +24,7 @@ export default function Bci() {
               <Link href='/agi'>AGI</Link>
             </div>
             <div className={styles.joinUsNavbar}>
-              <Link href='https://github.com/chtnnhfoundation'>Join Us!</Link>
+              <Link href='https://cg018ltu1vj.typeform.com/to/CNCsLOyz'>Join Us!</Link>
             </div>
           </header>
     
@@ -40,7 +40,7 @@ export default function Bci() {
           </main>
     
           <footer className={styles.footer}>
-            <Link href="https://github.com/chtnnhfoundation">Do you want to help build this future? Join us!</Link>
+            <Link href="https://cg018ltu1vj.typeform.com/to/CNCsLOyz">Do you want to help build this future? Join us!</Link>
           </footer>
         </div>
       )

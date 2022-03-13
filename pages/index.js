@@ -12,7 +12,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className={styles.header}>
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          Imagine a world where everyone on the planet is free to do their lives&apos; work.
+        </h1>
+        <h2 className={styles.description}>
+          Work begins 25 April, 2022.
+          <br />
+          Do you want to help build this future? <Link href="https://cg018ltu1vj.typeform.com/to/CNCsLOyz">Join us!</Link>
+        </h2>
+      </main>
+
+      {/* <header className={styles.header}>
         <Link href="/" passHref className={styles.navbarLogo}>
           <Image src='/logo.png' height="100%" width="100%" className={styles.logo} alt='chtnnh foundation logo'></Image>
         </Link>
@@ -70,7 +81,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <Link href="https://cg018ltu1vj.typeform.com/to/CNCsLOyz">Do you want to help build this future? Join us!</Link>
-      </footer>
+      </footer> */}
     </div>
   )
 }

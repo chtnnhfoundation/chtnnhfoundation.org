@@ -1,5 +1,7 @@
 .container {
   padding: 0 2rem;
+  background-color: #000000;
+  color: #fafafa;
 }
 
 .main {
@@ -86,7 +88,7 @@
   font-size: 1.5rem;
 }
 
-.description p a {
+.description a {
   text-decoration: underline;
 }
 
